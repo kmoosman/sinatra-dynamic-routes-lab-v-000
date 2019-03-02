@@ -29,7 +29,7 @@ class App < Sinatra::Base
 
     phrase = ""
 
-    words.join(" ")
+    "#{words.join(" ")}
 
   end
 
