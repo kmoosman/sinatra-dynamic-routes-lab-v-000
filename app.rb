@@ -21,6 +21,7 @@ class App < Sinatra::Base
     @num.times do
       display_phrase += @phrase
     end
+    display_phrase
   end
 
 end
