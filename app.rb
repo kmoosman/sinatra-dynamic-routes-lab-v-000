@@ -39,7 +39,6 @@ class App < Sinatra::Base
     "#{@num1 @operation @numb2}"
 
   end
-end
 
 
 
